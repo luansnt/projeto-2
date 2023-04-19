@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Equações de Segundo Grau</h1>
+
+    </header>
+
+    <main>
+        
+        <div>
+            <p>Para calcular equação de segundo grau informe o valor de A, B e C</p>
+            
+                <p>
+                    <label for="">A: </label>
+                    <input type="number" name="txtA" id="txtA">
+                </p>
+                <p>
+                    <label for="">B: </label>
+                    <input type="number" name="txtB" id="txtB">
+                </p>
+                <p>
+                    <label for="">C: </label>
+                    <input type="number" name="txtC" id="txtC">
+                </p>
+                <p><input type="button" value="Descubra o X" id="botao" onclick="calcular()"></p>
+            
+        </div>
+
+        <div id="res">
+            O resultado aparecerá aqui
+        </div>
+    </main>
+    <footer>
+        <p>Feito por Luan Santana &copy;</p>
+    </footer>
+    <script src="script.js"></script>
+</body> 
+</html>
